@@ -1,6 +1,6 @@
 import "../styles/NavBar.css";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -8,8 +8,24 @@ const NavBar = () => {
   const [iconClick, setClick] = useState(false);
   const handleClick = () => setClick(!iconClick);
 
+  const [headerColor, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 1) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+    return () => {
+      window.removeEventListener("scroll", changeColor);
+    };
+  }, []);
+
   return (
-    <div className="header">
+    <div className={headerColor ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>Portfolio</h1>
       </Link>

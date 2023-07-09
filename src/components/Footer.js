@@ -48,6 +48,17 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <div className="counter">
+          <h4>View Counts</h4>
+          <a href="https://www.hitwebcounter.com" target="_blank">
+            <img
+              src="https://hitwebcounter.com/counter/counter.php?page=8656990&style=0025&nbdigits=5&type=ip&initCount=0"
+              title="Free Counter"
+              Alt="web counter"
+              border="0"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );

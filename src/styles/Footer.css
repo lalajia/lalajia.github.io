@@ -43,7 +43,13 @@
 
 .right {
   display: flex;
-  padding: 1rem ;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.counter {
+  display: flex;
+  padding: 1rem;
   flex-direction: column;
 }
 
@@ -57,9 +63,7 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .footer-containter{
+  .footer-containter {
     grid-template-columns: 1fr;
   }
-  
 }
-

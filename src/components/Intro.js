@@ -11,7 +11,7 @@ const Intro = () => {
         <img className="bgImg" src={bgImg} alt="bgImg" />
       </div>
       <div className="content">
-        <p>Hi, Here is Xinyue Zheng</p>
+        <h1>Hi, Here is Xinyue Zheng</h1>
         <div className="btns">
           <Link to="/project">
             <button className="btn">Project</button>

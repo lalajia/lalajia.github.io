@@ -1,45 +1,60 @@
-.projectdetails {
+.projects {
   position: relative;
-  height: 60vh;
-  width: 100%;
-}
-
-.projectdetails::before {
-  content: "";
-  background: url("https://img.freepik.com/free-vector/matrix-style-binary-code-digital-background-with-falling-numbers_1017-25336.jpg?w=1380&t=st=1688889249~exp=1688889849~hmac=1c885665e5a8d4f6f80b8b21226de9095f382b5278cea46a516bafe9ac5aa6f8");
-  background-size: cover;
-  background-position: center top;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 35%;
 }
 
 .projectheading {
-  height: 100%;
-  width: 100%;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.projectcontainer {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding-bottom: 5rem;
+}
+
+.details {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 1.2rem 1rem;
 }
 
-.projectheading h1 {
-  font-size: 2.4rem;
+.details img {
+  width: 100%;
 }
 
-.projectheading p {
-  font-size: 1.4rem;
+.details h4 {
+  padding: 0.5rem;
+  text-align: justify;
 }
+
+.project-details {
+  padding: 0.5rem;
+  color: antiquewhite;
+  text-align: justify;
+}
+
+.details .btns {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.details .btns .btn {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px 24px;
+}
+
 @media screen and (max-width: 640px) {
-  .projectheading h1 {
-    font-size: 2rem;
-  }
-
-  .projectheading p {
-    font-size: 1rem;
+  .projectcontainer {
+    max-width: 90%;
+    grid-template-columns: 1fr;
   }
 }

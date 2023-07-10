@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import ProjectDetails from "../components/ProjectDetails";
+import ProjectDetails from "../components/Header";
 import NavBar from "../components/NavBar";
 
 const About = () => {

@@ -1,11 +1,9 @@
 import React from "react";
 import "../styles/Footer.css";
 import {
-  FaFacebook,
   FaGithub,
   FaHome,
   FaLinkedin,
-  FaLinkedinIn,
   FaMailBulk,
   FaPhone,
 } from "react-icons/fa";

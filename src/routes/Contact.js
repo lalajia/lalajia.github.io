@@ -1,13 +1,15 @@
 import React from "react";
 import Footer from "../components/Footer";
-import ProjectDetails from "../components/Header";
+import Header from "../components/Header";
 import NavBar from "../components/NavBar";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
     <div>
       <NavBar></NavBar>
-      <ProjectDetails heading="Contact" />
+      <Header heading="Contact" />
+      <ContactForm />
       <Footer></Footer>
     </div>
   );

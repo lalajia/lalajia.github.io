@@ -1,0 +1,47 @@
+.form {
+  max-width: 800px;
+  justify-content: center;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 20px;
+  margin: auto;
+  background-color: black;
+  max-width: 800px;
+}
+
+label {
+  padding: 1rem 0;
+}
+
+form input,
+form textarea {
+  padding: 1rem 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  outline: none;
+  color: #c4c3ca;
+  background-color: #32333c;
+  border: none;
+  border-color: aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
+  margin-bottom: 1rem;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  textarea::placeholder,
+  input::placeholder {
+    font-size: 1rem;
+  }
+}

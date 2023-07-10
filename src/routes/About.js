@@ -1,13 +1,15 @@
 import React from "react";
 import Footer from "../components/Footer";
-import ProjectDetails from "../components/Header";
+import Header from "../components/Header";
 import NavBar from "../components/NavBar";
+import TimeLines from "../components/TimeLines";
 
 const About = () => {
   return (
     <div>
       <NavBar></NavBar>
-      <ProjectDetails heading="Who am I" text="An Explorer" />
+      <Header heading="Who am I" text="XXX" />
+      <TimeLines />
       <Footer></Footer>
     </div>
   );

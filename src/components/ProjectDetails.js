@@ -14,7 +14,9 @@ const ProjectDetails = () => {
             <SingleProject
               key={ind}
               img={val.img}
+              embedvideo={val.embedvideo}
               title={val.title}
+              techs={val.techs}
               text={val.text}
               prototype={val.prototype}
               video={val.video}
@@ -83,13 +85,33 @@ const ProjectDetails = () => {
 
       <div className="projectheading"> Game Projects</div>
       <div className="projectcontainer">
-        {ProjectDatas.slice(2).map((val, ind) => {
-          const actualIndex = 2 + ind;
+        {ProjectDatas.slice(2, 4).map((val, ind) => {
           return (
             <SingleProject
-              key={actualIndex}
+              key={ind}
               img={val.img}
+              embedvideo={val.embedvideo}
               title={val.title}
+              techs={val.techs}
+              text={val.text}
+              prototype={val.prototype}
+              video={val.video}
+              source={val.source}
+            />
+          );
+        })}
+      </div>
+
+      <div className="projectheading"> Others</div>
+      <div className="projectcontainer">
+        {ProjectDatas.slice(4).map((val, ind) => {
+          return (
+            <SingleProject
+              key={ind}
+              img={val.img}
+              embedvideo={val.embedvideo}
+              title={val.title}
+              techs={val.techs}
               text={val.text}
               prototype={val.prototype}
               video={val.video}

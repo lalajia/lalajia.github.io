@@ -38,7 +38,7 @@ const Footer = () => {
                 style={{ color: "white", marginRight: "1rem" }}
               />
             </a>
-            <a href="https://www.linkedin.com/in/xinyue-zheng-75047a180/">
+            <a href="https://www.linkedin.com/in/xinyue-zheng-selena/">
               <FaLinkedin
                 size={40}
                 style={{ color: "white", marginRight: "1rem" }}
@@ -48,7 +48,11 @@ const Footer = () => {
         </div>
         <div className="counter">
           <h4>View Counts</h4>
-          <a href="https://www.hitwebcounter.com" target="_blank">
+          <a
+            href="https://www.hitwebcounter.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="https://hitwebcounter.com/counter/counter.php?page=8657052&style=0025&nbdigits=5&type=page&initCount=0"
               title="Free Counter"

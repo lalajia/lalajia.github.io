@@ -6,23 +6,37 @@ import "../styles/ProjectDetails.css";
 const SingleProject = (props) => {
   return (
     <div className="details">
-      <img src={props.img} alt="img" />
+      {props.img && <img src={props.img} alt="img" />}
+      {!props.img && props.embedvideo && (
+        <iframe
+          height="315"
+          src={props.embedvideo}
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      )}
       <h4>{props.title}</h4>
+      <ul>
+        {props.techs &&
+          props.techs.map((tech, index) => <li key={index}>{tech}</li>)}
+      </ul>
       <div className="project-details">{props.text}</div>
       <div className="btns">
         {props.prototype && (
           <Link to={props.prototype}>
-            <button className="btn">Check Prototype</button>
+            <button className="btn">Prototype</button>
           </Link>
         )}
         {props.video && (
           <Link to={props.video}>
-            <button className="btn">Check Video</button>
+            <button className="btn">Video</button>
           </Link>
         )}
         {props.source && (
           <Link to={props.source}>
-            <button className="btn">GitHub Source</button>
+            <button className="btn">Source</button>
           </Link>
         )}
       </div>

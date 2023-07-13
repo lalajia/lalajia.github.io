@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a36e483.css",
-    "main.js": "/static/js/main.0fab9ec8.js",
+    "main.css": "/static/css/main.b821a068.css",
+    "main.js": "/static/js/main.c98bfabb.js",
     "static/media/Blog.png": "/static/media/Blog.efd7e1599a1d6d24d9a9.png",
     "static/media/bg.jpeg": "/static/media/bg.f100e5ec11b4eb6bf10d.jpeg",
     "static/media/Diabeatit.png": "/static/media/Diabeatit.e8178f4e871a171ef20f.png",
     "static/media/project sunflower.png": "/static/media/project sunflower.f4cdf24c9e069067ede8.png",
     "static/media/Database.png": "/static/media/Database.6bd501a36104debbbe41.png",
     "static/media/Algorithm graph.png": "/static/media/Algorithm graph.c5f6578a24dad77b2ddf.png",
+    "static/media/aws-certified-cloud-practitioner.png": "/static/media/aws-certified-cloud-practitioner.e53084f262b3e1fdfcb1.png",
+    "static/media/aws-academy-graduate-aws-academy-cloud-architecting.png": "/static/media/aws-academy-graduate-aws-academy-cloud-architecting.5d8d567a680cecb73f9d.png",
+    "static/media/aws-academy-graduate-aws-academy-cloud-foundations.png": "/static/media/aws-academy-graduate-aws-academy-cloud-foundations.5432564fbb7816d04ab4.png",
+    "static/media/graduate-leadership-institute.png": "/static/media/graduate-leadership-institute.6e579473104f72ebbab0.png",
     "index.html": "/index.html",
-    "main.1a36e483.css.map": "/static/css/main.1a36e483.css.map",
-    "main.0fab9ec8.js.map": "/static/js/main.0fab9ec8.js.map"
+    "main.b821a068.css.map": "/static/css/main.b821a068.css.map",
+    "main.c98bfabb.js.map": "/static/js/main.c98bfabb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a36e483.css",
-    "static/js/main.0fab9ec8.js"
+    "static/css/main.b821a068.css",
+    "static/js/main.c98bfabb.js"
   ]
 }

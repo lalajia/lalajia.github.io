@@ -1,12 +1,40 @@
-# Getting Started with Create React App
+**For public**
+
+# Welcome to My Personal Website
+
+Welcome to my personal website! This site serves as a showcase of my skills, projects, and interests. I've drawn inspiration from the tutorial at [YouTube](https://www.youtube.com/watch?v=0h2b4ftbZcU&themeRefresh=1), and I've added my own unique features, style changes, and the implementation of Material UI.
+
+## My Website Pages
+
+1. **Home:** From the home page, you can easily navigate to the Project, About, and Contact pages.
+
+2. **Projects:** The Projects page showcases a collection of my personal projects. For each project, you'll find details such as the source code, prototypes, or videos demonstrating the project's functionality.
+
+3. **About:** The About page provides insight into my background and experiences. I've highlighted my past experiences, including the certificates I've earned. This page offers a glimpse into my journey and how I've become who I am today.
+
+4. **Contact:** The Contact page offers a way to get in touch with me. While the forms are currently not functional, you can still reach out to me by clicking the designated contact options. Feel free to connect with me through email or LinkedIn.
+
+## Experience It Yourself
+
+Feel free to explore my personal website Visit [Selena's Personal](https://lalajia.github.io/) to see it in action!
+
+## Contact Me
+
+\*If you have any questions, feedback, or collaboration opportunities, don't hesitate to reach out. You can contact me through the [Contact Page](https://www.mypersonalwebsite.com/contact) on my website.
+
+Thank you for visiting and enjoy your time on my personal website!
+
+<br><br><br><br><br><br>
+
+**For me**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+##### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+##### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +42,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+##### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+##### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +57,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+##### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -39,34 +67,34 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+##### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+##### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+##### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+##### Making a Progressive Web App
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+##### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+##### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+##### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### `npm run deploy` to update new changed to gh-pages
+##### `npm run deploy` to update new changed to gh-pages

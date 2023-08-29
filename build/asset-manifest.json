@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.b821a068.css",
-    "main.js": "/static/js/main.877d3987.js",
-    "static/media/Blog.png": "/static/media/Blog.efd7e1599a1d6d24d9a9.png",
+    "main.js": "/static/js/main.f9f0c002.js",
     "static/media/bg.jpeg": "/static/media/bg.f100e5ec11b4eb6bf10d.jpeg",
     "static/media/Diabeatit.png": "/static/media/Diabeatit.e8178f4e871a171ef20f.png",
     "static/media/project sunflower.png": "/static/media/project sunflower.f4cdf24c9e069067ede8.png",
+    "static/media/Blog.png": "/static/media/Blog.72b4650bd9947fbff966.png",
     "static/media/Database.png": "/static/media/Database.6bd501a36104debbbe41.png",
     "static/media/Algorithm graph.png": "/static/media/Algorithm graph.c5f6578a24dad77b2ddf.png",
     "static/media/aws-certified-cloud-practitioner.png": "/static/media/aws-certified-cloud-practitioner.e53084f262b3e1fdfcb1.png",
@@ -14,10 +14,10 @@
     "static/media/graduate-leadership-institute.png": "/static/media/graduate-leadership-institute.6e579473104f72ebbab0.png",
     "index.html": "/index.html",
     "main.b821a068.css.map": "/static/css/main.b821a068.css.map",
-    "main.877d3987.js.map": "/static/js/main.877d3987.js.map"
+    "main.f9f0c002.js.map": "/static/js/main.f9f0c002.js.map"
   },
   "entrypoints": [
     "static/css/main.b821a068.css",
-    "static/js/main.877d3987.js"
+    "static/js/main.f9f0c002.js"
   ]
 }

@@ -28,6 +28,7 @@ const ProjectDatas = [
       "Prisma",
       "Authentication",
     ],
+    source: "https://github.com/lalajia/website",
   },
   {
     embedvideo: "https://www.youtube.com/embed/SpCnUI41TQ4",
@@ -43,6 +44,7 @@ const ProjectDatas = [
       "UML",
       "Entity-Relationship Diagrams",
     ],
+    source: "https://github.com/lalajia/JavaGameDungeon",
   },
   {
     img: pj3,

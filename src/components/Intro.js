@@ -13,11 +13,12 @@ const Intro = () => {
       <div className="content">
         <h1>Hi, Here is Xinyue Zheng</h1>
         <div className="btns">
-          <Link to="/project">
-            <button className="btn">Project</button>
-          </Link>
           <Link to="/about">
             <button className="btn">About</button>
+          </Link>
+
+          <Link to="/project">
+            <button className="btn">Project</button>
           </Link>
           <Link to="/contact">
             <button className="btn">Contact</button>

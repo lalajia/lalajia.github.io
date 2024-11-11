@@ -40,8 +40,8 @@ const TimeLines = () => {
           variant="h8"
           color="white"
         >
-          Work at Schiller China
-          <br /> Frontend Developer
+          Work at Schiller Medical
+          <br /> Software Engineer Developer
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -72,7 +72,27 @@ const TimeLines = () => {
 
         <TimelineContent sx={{ py: "12px", px: 2 }}>
           <Typography variant="h6" component="span" color="secondary">
-            2022-now
+            2022-2024
+          </Typography>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          variant="h8"
+          color="white"
+        >
+          Work at Accelbyte
+          <br /> Software Developer Intern
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot color="warning"></TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: "12px", px: 2 }}>
+          <Typography color="red" variant="h6" component="span">
+            2024
           </Typography>
         </TimelineContent>
       </TimelineItem>
